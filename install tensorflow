@@ -1,0 +1,17 @@
+# Requires the latest pip
+pip install --upgrade pip
+
+# Current stable release for CPU-only
+pip install tensorflow
+
+# Or preview build for CPU/GPU (unstable)
+pip install tf-nightly
+
+# having trouble installng in setup tools needed to be updated to 41.0
+#https://blog.csdn.net/chengyq116/article/details/93654175
+#sudo pip install setuptools==41.0.0
+#also
+#pip install --user package-name  
+#or pip3
+#tried with sudo pip install tensorflow
+#worked

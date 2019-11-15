@@ -1,0 +1,11 @@
+git clone https://github.com/opencv/opencv.git
+cd opencv
+mkdir mybin
+cd mybin
+cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_INSTALL_PREFIX=/usr/local -DENABLE_PRECOMPILED_HEADERS=OFF -DWITH_FFMPEG=OFF ..
+make
+sudo make install
+
+
+
+useful link:https://stackoverflow.com/questions/40262928/error-compiling-opencv-fatal-error-stdlib-h-no-such-file-or-directory
