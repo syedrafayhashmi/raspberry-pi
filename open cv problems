@@ -13,3 +13,5 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D WITH_FFM
 make -j7
 sudo make install
 
+worked
+
